@@ -1,0 +1,47 @@
+.navbar{
+    background-color: black;
+  color: white;
+  display: flex;
+}
+.navbar .title{
+  padding: 1em;
+}
+.navbar .menu-icon{
+  padding: 1em;
+  margin-left: auto;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.menu-container{
+  background-color: darkgray;
+  display: none;
+}
+
+.menu-container.active{
+  display: block;
+}
+
+.menu-container ul{
+  list-style: none;
+  padding: 1em;
+}
+
+.menu-container a{
+  text-transform: capitalize;
+  text-align: center;
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
+  transition: all 0.5s;.
+}
+
+.menu-container a.active{
+  color: white;
+}
+
+.menu-container a:hover{
+  text-decoration: underline;
+  transform: scale(1.1)
+}
