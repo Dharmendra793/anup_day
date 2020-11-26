@@ -1,0 +1,51 @@
+.footer{
+    background-color: blanchedalmond;
+
+}
+.social{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.link-container{
+    display: flex;
+    padding: 0.5em;
+}
+.social .title{
+    padding: 1em;
+}
+.social .link {
+    margin-right: 1em;
+}
+.social .link img{
+    width: 2em;
+}
+/* social */
+.externel-links{
+    border-top: 0.1em solid silver;
+    padding-bottom: 0.5em;
+}
+.externel-links .title{
+    padding: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.externel-links ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    margin-bottom: 1em;
+    
+}
+
+.externel-links a{
+    padding: 1em;
+   font-size: small;
+    text-transform: capitalize;
+}
+/*  external*/
+.developer{
+    background-color: burlywood;
+    font-size: small;
+    text-align: center;
+    padding: 1em;
+}
