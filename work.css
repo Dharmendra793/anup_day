@@ -1,0 +1,59 @@
+.work{
+  padding: 1em;
+  background-color: whitesmoke;}
+
+.work > .title{
+  margin-bottom: 0.5em;
+  font-size: larger;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.post{
+  border-left: 0.5em solid tomato;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  transition: all 0.1s;
+}
+.post .title{
+  font-size: large;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.post .date{
+  color: gray;
+}
+.post .desc{
+  font-size: small;
+  text-overflow: ellipsis;
+  height: 4em;
+  overflow: hidden;
+}
+.post .read{
+  text-transform: capitalize;
+  margin-top: 0.5em;
+}
+.work .see {
+    padding:  0.5em 1em;
+    text-transform: uppercase;
+    border-radius: 1em;
+  background-color: cornflowerblue;
+  color: white;
+  font-size: small;
+  display: block;
+  text-align: center;
+  width: 8em;
+  margin: 1em auto;
+}
+ .post:hover{
+  opacity: 0.8;
+}
+.work .see:hover{
+  background-color: blue;
+}
+
+@media only screen and (min-width: 600px) {
+  .work-container{
+    display: flex;
+    justify-content: center;
+  }
+}
