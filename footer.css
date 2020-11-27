@@ -49,3 +49,15 @@
     text-align: center;
     padding: 1em;
 }
+/*  */
+@media only screen and (min-width: 600px) {
+.footer-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+    .externel-links ul{
+        margin-top: 0.5em;
+    }
+
+}
