@@ -1,12 +1,12 @@
-.navbar{
-    background-color: black;
+.navbar {
+  background-color: black;
   color: white;
   display: flex;
 }
-.navbar .title{
+.navbar .title {
   padding: 1em;
 }
-.navbar .menu-icon{
+.navbar .menu-icon {
   padding: 1em;
   margin-left: auto;
   letter-spacing: 0.2em;
@@ -14,34 +14,51 @@
   cursor: pointer;
 }
 
-.menu-container{
+.menu-container {
   background-color: darkgray;
   display: none;
 }
 
-.menu-container.active{
+.menu-container.active {
   display: block;
 }
 
-.menu-container ul{
+.menu-container ul {
   list-style: none;
   padding: 1em;
 }
 
-.menu-container a{
+.menu-container a {
   text-transform: capitalize;
   text-align: center;
   display: block;
   padding: 0.5em;
   text-decoration: none;
-  transition: all 0.5s;.
+  transition: all 0.5s;
 }
 
-.menu-container a.active{
+.menu-container a.active {
   color: white;
 }
 
-.menu-container a:hover{
+.menu-container a:hover {
   text-decoration: underline;
-  transform: scale(1.1)
+  transform: scale(1.1);
+}
+/*  */
+@media only screen and (min-width: 600px) {
+  .navbar {
+    display: none;
+  }
+  .menu-container ul {
+    display: flex;
+    justify-content: center;
+    background-color: goldenrod;
+  }
+  .menu-container a {
+    margin: 0 0.5em;
+  }
+  .menu-container {
+    display: block;
+  }
 }
