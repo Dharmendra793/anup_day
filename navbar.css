@@ -26,6 +26,7 @@
 .menu-container ul {
   list-style: none;
   padding: 1em;
+  font-weight: bold;
 }
 
 .menu-container a {
