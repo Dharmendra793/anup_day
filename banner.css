@@ -1,0 +1,44 @@
+.banner-container{
+  display: flex;
+  background-color:tomato;
+  
+  
+}
+.banner-container .flag img{
+  width: 6em
+}
+.banner-container .name{
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-left: 1em;
+  color: green;
+}
+.banner-container .designation{
+  font-size: 1em;
+  font-weight: bold;
+   padding-left: 1.5em
+}
+.banner-container .commnunication{
+  padding-top: 2em;
+  padding-left: 2em;
+  display: none;
+}
+.banner-container .photo img{
+  width: 5em;
+  border-radius: 5em;
+}
+.banner-container .location{
+  padding-top: 0.5em;
+  padding-left: 1.5em;
+}
+@media only screen and (min-width: 600px) {
+.banner-container .commnunication{
+  display: block;
+  margin-left: auto;
+  }
+  .banner-container .photo img{
+  width: 7em;
+   
+}
+}
+  
